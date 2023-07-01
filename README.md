@@ -29,6 +29,13 @@ Use data CBIR (Kaggle):
 
 - Create a database that contains feature vectors from sample images
 - Compare the feature vector of the test image with the feature vectors in the database and find the most similar images
+  by using "np.linalg.norm(x, ord=None, axis=None, keepdims=False)"
+  ( Where:
+  + "x" is the vector or matrix for which the norm is calculated.
+  + "ord" is a parameter that determines the type of norm to be computed. The default value is None, which corresponds to the Euclidean norm. Other values of ord can 
+        be used to calculate different types of norms such as the Manhattan norm, maximum norm, and Frobenius norm.
+  + "axis" is the axis along which the norm is computed for a matrix. The default value is None, which means the norm is calculated for the entire matrix.
+  + "keepdims" is a flag that indicates whether to keep the dimension sizes or not. The default value is False, which means the dimension sizes will be reduced.)
 ![image](https://global-uploads.webflow.com/5ef788f07804fb7d78a4127a/623c68cda43982d04d80a752_Engati-Euclidean-distance%20(1).jpg)
 - Show a list of images that are similar to the test image to the user
 ### Results <a name="results"></a>
