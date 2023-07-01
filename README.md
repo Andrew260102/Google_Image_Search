@@ -10,13 +10,13 @@
 
 </details>
 
-## About Project <a name="about-project"></a>
+### About Project <a name="about-project"></a>
 - This project is a content-based image search system. It allows users to upload a test image and find similar images in the CBIR database
 
-## Getting Started <a name="getting-started"></a>
+### Getting Started <a name="getting-started"></a>
 - Installation<a name = "installation"></a> :
   
-## Data <a name="data"></a>
+### Data <a name="data"></a>
 
 Use data CBIR (Kaggle):
 - [Kaggle](https://www.kaggle.com/datasets/theaayushbajaj/cbir-dataset)
